@@ -1,0 +1,1 @@
+Goal of this project is to reproduce _simply_ an issue encourtered on a big Spring project.
