@@ -12,7 +12,7 @@ public class SpringServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         WebApplicationContext context = getWebApplicationContext(getServletContext());
-        response.getWriter().println(context.getBean("bean"));
+        response.getWriter().println(context.getBean("container"));
     }
 
 }

@@ -12,7 +12,7 @@ public class BeanProfileATest extends JettyTest {
 
     @BeforeClass
     public static void startJetty() throws Exception {
-        JettyTest.startJetty("profileA");
+        JettyTest.startJetty("default,profileA");
     }
 
     @Test
